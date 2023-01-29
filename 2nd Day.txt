@@ -1,0 +1,37 @@
+On the 2nd day , I learnt about operators that are used in Python.
+
+1. Addition : + 
+2. Subtraction : -
+3. Multiplication : *
+4. Division : / (give quotient with decimals if any)
+5. Modulus : % (gives remainder)
+6. Exponent : ** (gives power)
+7. Floor Division : // (gives quotient without decimals, only the floor value)
+
+Typecasting: Conversion of one data type into the other type
+2 types : Explicit (developers have to do) and Implicit (Python Interpreter does automatically on the basis of order value of the datatypes)
+
+Taking user input in Python: Using input() function.
+It gives a return value as a string or character. Whenever a variable takes input using input() function, it will be taken as a string input. 
+e.g: variable = input() --> Variable will contain a string
+     variable = input("Enter message")
+     variable = int(input()) -->  Variable will contain an integer.
+
+
+Strings:- A sequence or array of textual data. They are generally between single quote or double quote. 
+          For multiline string, triple single/double quotes are used. 
+
+          a) Access characters in a string : 
+                  e.g name="Anant"
+                      print(name[0]) (Output will be A)
+
+          b) Looping through the string :
+                  e.g for character in name:
+                          print(character)
+          
+          c) Slicing of strings :
+                 e.g name[0:3] --> 0 index included, 3 index not included
+                     name[-3:-1] --> name[len(name)-3:len(name)-1]
+           
+          d) Length of string: len() function returns the length of the string.999
+
