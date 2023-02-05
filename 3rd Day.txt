@@ -1,0 +1,25 @@
+String Methods :- 
+
+# Note: Strings are immutable. Operations can be done on it but it will lead to creation of new string. 
+It will not change the string.
+
+--> upper() - Converts string to uppercase 
+--> lower() - Converts string to lowercase
+--> rstrip() - removes any trailing characters 
+--> replace() - replace all the occurences of a string with another string.
+--> split() - Splits the given string at the specified instance and returns the list
+--> capitalize() - returns only the first character of the string to uppercase and rest other are converted to lowercase.
+--> center() - aligns the string to the center as per the parameters given by users
+--> count() - returns the number of times given value has occured within given string.
+--> endswith() - return true or false if the given string ends with a given value.
+--> find() - searches for the first occurence of given value and returns index where it is present. If given value is absent, it returns -1.
+--> index() - same as find() but if given value is absent, then raise an exception.
+--> isalnum() - Returns true if the entire string only consists of 'A-Z' , a-z, 0-9
+--> isalpha() - Return true if string consists 'A-Z' or a-z
+--> islower() - Return true if all string is in lowercase
+--> isprintable() - Return if string is printable or not.
+--> isspace() - return true if string contain whitespaces
+--> istitle() - return true if first letter of each word of the string is capitalized.
+--> startswith() - return true or false if the given string starts with a given value.
+--> swapcase() - returns lowercase to uppercase and uppercase to lowercase
+--> title() - capitalizes each letter of the word.
